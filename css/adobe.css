@@ -1,0 +1,39 @@
+.contenedor-principal{
+    display: flex;
+    background-color: rgb(226, 158, 233);
+    width: 100%;
+    height: 550px;
+    justify-content: center;
+}
+
+.item{
+    border:1px solid red;
+    width: 30%;
+    height: 100%;
+    margin-left: 40px;
+}
+
+.item-1{
+    background: rgb(252,51,35);
+background: linear-gradient(0deg, rgba(252,51,35,1) 0%, rgba(254,151,136,1) 56%);
+display: flex;
+flex-direction: column;
+text-align: left;
+}
+
+.item-texto{
+
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.img-contenedor1{
+    width: 100%;
+    height: 90%;
+}
+
+.item-2{
+    background-size: cover;
+    background-image: url("/img/img-contenedores/DC-triple-mobile.jpg");
+}
